@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="typingLetter.css">
+    <title></title>
+    <script src="typingLetter.js" charset="utf-8"></script>
+  </head>
+  <body onload="main()" onkeypress="keyPressed(event)" id="body">
+    <h1 id="over">Game Over</h1>
+    <div class="container">
+      <br>
+      <div class="title">
+        <div class="sub">
+          Type This Letter
+        </div>
+        <div class="sub">
+          Sec:
+          <span id="timer"></span>
+        </div>
+      </div>
+      <div class="display">
+        <span id="display"></span>
+      </div>
+      <br/> <br>
+      Score:
+      <span id="score"></span><br>
+      Attempted:
+      <span id="attempt"></span><br>
+      Accuracy:
+      <span id="accuracy"></span> %
+    </div>
+  </body>
+</html>

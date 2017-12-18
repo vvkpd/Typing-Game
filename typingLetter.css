@@ -1,0 +1,48 @@
+body{
+  font-size: 22px;
+  font-family: sans-serif;
+}
+h1{
+  position: relative;
+  top: 200px;
+  left: 40%;
+  color: red;
+  visibility:hidden;
+}
+.container {
+  height: 400px;
+  width: 500px;
+  margin:0px auto;
+  background-color: darkcyan;
+  text-align: center;
+  border-radius: 15px;
+}
+.title{
+  height: 50px;
+  width: 100%;
+}
+.sub{
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  width: 50%;
+  float: left;
+}
+
+
+input{
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  font-size: 20px;
+  /*visibility:hidden;*/
+}
+
+.display{
+  margin-left: 200px;
+  height: 70px;
+  width: 100px;
+  padding-top: 30px;
+  background-color: orange;
+  border-radius: 50%;
+}
